@@ -1,7 +1,9 @@
 package com.example.newestmoviesapp.data
 
+import androidx.room.Entity
 import com.google.gson.annotations.SerializedName
 
+@Entity(tableName = "movies")
 data class Movie(
 
 
