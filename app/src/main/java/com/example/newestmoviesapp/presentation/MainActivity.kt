@@ -1,4 +1,4 @@
-package com.example.newestmoviesapp
+package com.example.newestmoviesapp.presentation
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
