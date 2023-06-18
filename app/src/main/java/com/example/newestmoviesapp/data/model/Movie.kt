@@ -1,12 +1,13 @@
 package com.example.newestmoviesapp.data.model
 
 import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
 @Entity(tableName = "movies")
 data class Movie(
 
-
+    @PrimaryKey
     val id: Int,
     @SerializedName("original_language")
     val originalLanguage: String,
